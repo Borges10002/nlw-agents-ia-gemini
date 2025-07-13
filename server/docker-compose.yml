@@ -1,6 +1,6 @@
 services:
   nlw-agents-pg:
-    image: pgvector/pgvector:pg17
+    image: ankane/pgvector
     environment:
       POSTGRES_USER: docker
       POSTGRES_PASSWORD: docker

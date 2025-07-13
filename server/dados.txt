@@ -1,0 +1,2 @@
+
+docker run --name nlw-agents-pg -e POSTGRESQL_USERNAME=docker -e POSTGRESQL_PASSWORD=docker -e POSTGRESQL_DATABASE=agents -p 5432:5432 bitnami/postgresql
